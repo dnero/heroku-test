@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha **/*.test.js"
   },
   "license": "MIT",
   "dependencies": {
     "express": "4.14.0",
     "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "3.0.0"
   }
 }
